@@ -33,7 +33,7 @@ export const Details = (props) => {
             </h1>
             <aside className='details--aside'>
                 <div className='details--img'>
-                    <img src={product.img} alt="product" />
+                    <img src={`../../${product.img}`} alt="product" />
                 </div>
                 <div className='details--description'>
                     <Card 
