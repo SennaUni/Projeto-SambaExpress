@@ -4,10 +4,10 @@
     box-sizing: border-box;
 }
 
-header{
+.header--main{
     width: 100%;
     height: auto;
-    padding: 10px 0;
+    padding: 10px 5%;
 
     background-color: #04aac0;
 
@@ -16,32 +16,33 @@ header{
     justify-content: space-around;
     align-items: center;
 
-    font-size: 1.2rem;
+    font-size: 1.0rem;
 }
 
-.searchBar {
+.header--searchBar {
     margin-right: auto;
 }
 
 .ui.input > input{
     border-radius: 15px;
-    padding: 10px;
+    padding: 8px;
     width: 400px;
     min-width: 250px;
 }
 
-ul {
+.header--icons ul {
     display: flex;
     list-style: none;
 }
 
-li a {
+.header--icons li a {
     color: white;
     margin-right: 30px;
 }
 
 
-header img{
+.header--main img{
     height: 50px;
-    width: 250px;
+    width: 100%;
+    padding: 0 15px;
 }

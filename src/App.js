@@ -1,23 +1,20 @@
-import { sales } from './data/data'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
-import { useEffect, useState, useRef } from 'react'
-
-import { StoreFront } from "./components/StoreFront/StoreFront"
 import { Header } from "./components/Header/Header"
+import { Home } from './views/Home/Home'
+import { Details } from './views/Details/Details'
 
 export const App = () => {
 
-  const [sale, setSale] = useState([])
-
-  useEffect(() => {
-    setSale(sales) 
-  }, [])
-
-  console.log(sale)
-
   return (
     <div>
+      <BrowserRouter>
       <Header />
+        <Routes>
+          <Route path="/" element={ <Home />} />
+          <Route path="/details/:id/" element={ <Details />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   )
 }

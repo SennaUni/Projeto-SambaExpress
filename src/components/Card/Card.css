@@ -1,0 +1,33 @@
+.card {
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    background-color: #e5edee;
+    border-radius: 10px;
+    border-bottom: 5px solid #04aac0;
+}
+
+.card--header span {
+    color: #04aac0;
+    font-size: 1.1rem;
+    padding: 5px;
+}
+
+.card--content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
+
+.card--content .card--value {
+    color: #04aac0;
+    margin-left: 15px;
+    font-size: 2rem;
+}
+
+.card--content .card--pay {
+    color: #969999;
+    margin-top: 5px;
+    padding: 0 10px;
+}

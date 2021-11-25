@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.details--main h1 {
+    color: #04aac0;
+    padding: 5px 0 0;
+}
+
+.details--title {
+    padding: 25px 25px 0 !important;
+}
+
+.details--title a {
+    color: #04aac0;
+}
+
+.details--aside {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.details--description {
+    max-width: 600px;
+    min-width: 400px;
+    margin: 0 auto;
+}
+
+.details--description p {
+    width: 90%;
+    margin: auto;
+    text-align: justify;
+    text-indent: 2em;
+    font-size: 1.1rem;
+}
+
+.details--img{
+   max-width: 450px;
+   margin: auto;
+   justify-content: right;
+}
+
+.details--img img{
+    width: 100%;
+    border-radius: 30px;
+    border-radius: 15px;
+    box-shadow: 2px 5px 5px #a19f9f;
+}

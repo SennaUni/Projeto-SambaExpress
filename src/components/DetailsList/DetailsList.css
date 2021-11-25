@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.details--list {
+    width: 90%;
+    margin: auto;
+
+    display: flex;
+    text-align: justify;
+    font-size: 1.2rem;
+}
+
+.details--list li{
+    list-style: disc;
+    margin: 15px 30px;
+}
+
+.details--list span{
+    color: #04aac0;
+}
+
+.detail--grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);  
+}
